@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digivik Business Solutions | Premium Portfolio</title>
+  <meta name="description" content="Premium portfolio website for Digivik Business Solutions showcasing website design, development and digital marketing projects." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="grain"></div>
+  <div class="ambient-orb orb-one"></div>
+  <div class="ambient-orb orb-two"></div>
+
+  <div class="cursor-preview" id="cursorPreview">
+    <div class="preview-bar"></div>
+    <video id="previewVideo" src="assets/videos/fly-and-tech.mp4" muted autoplay loop playsinline></video>
+    <img id="previewImg" src="assets/projects/fly-and-tech.svg" alt="Website preview" />
+    <p id="previewTitle">Project Preview</p>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">Digivik<span>.</span></a>
+      <nav class="main-nav">
+        <a href="#work">Work</a>
+        <a href="#cases">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Start Project</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-reveal">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Premium Digital Marketing & Web Development Agency</p>
+          <h1>We Turn Pixels Into Profit.</h1>
+          <p class="lead">Digivik Business Solutions builds premium websites, brand experiences, and performance-ready digital platforms for businesses that want to look better, sell smarter, and grow faster.</p>
+          <div class="actions">
+            <a class="btn primary" href="#work">View Our Work</a>
+            <a class="btn ghost" href="#contact">Let’s Talk</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>17+</strong><span>Live Website Projects</span></div>
+            <div><strong>360°</strong><span>Design + Development + Marketing</span></div>
+            <div><strong>Premium</strong><span>Brand-first Digital Presence</span></div>
+          </div>
+        </div>
+        <div class="device-stage" aria-label="Portfolio video mockups">
+          <div class="glass-device video-frame">
+            <div class="device-bar"><span></span><span></span><span></span></div>
+            <video src="assets/videos/quadra-horizons.mp4" muted autoplay loop playsinline poster="assets/projects/quadra-horizons.svg"></video>
+            <div class="scan-line"></div>
+          </div>
+          <div class="phone-mockup video-frame">
+            <video src="assets/videos/her-everyday-runway.mp4" muted autoplay loop playsinline poster="assets/projects/her-everyday-runway.svg"></video>
+            <div class="scan-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section-reveal">
+      <div class="container">
+        <p class="eyebrow">What Digivik Does</p>
+        <h2 class="wide-title">We design digital experiences that make brands impossible to ignore.</h2>
+        <div class="intro-grid">
+          <article><span>01</span><h3>Strategy</h3><p>We understand the brand, audience, goals, and user journey before planning the design.</p></article>
+          <article><span>02</span><h3>Design</h3><p>We create premium, clean, and conversion-focused website interfaces with strong visual hierarchy.</p></article>
+          <article><span>03</span><h3>Growth</h3><p>We connect website design with SEO, content, ads, and social campaigns for better digital growth.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase section-reveal" id="work">
+      <div class="container">
+        <div class="section-head split-head">
+          <div><p class="eyebrow">Portfolio</p><h2>Websites Built by Us</h2></div>
+          <p>Hover on any project name to preview its website-style visual. Click the project to visit the live website.</p>
+        </div>
+        <div class="client-list" id="clientList"></div>
+      </div>
+    </section>
+
+    <section class="marquee-section" aria-label="Client marquee">
+      <div class="marquee"><div class="marquee-track" id="marqueeTrack"></div></div>
+    </section>
+
+    <section class="mockups section-reveal">
+      <div class="container mockup-grid">
+        <div class="mockup-copy">
+          <p class="eyebrow">Portfolio Presentation</p>
+          <h2>Every project should feel alive, not flat.</h2>
+          <p>Use these animated mockups now, and later replace them with 10-second screen recording videos of each website. This gives your portfolio a premium agency feel.</p>
+        </div>
+        <div class="mockup-stack">
+          <div class="laptop video-frame"><video src="assets/videos/shruti-kabra.mp4" muted autoplay loop playsinline poster="assets/projects/shruti-kabra.svg"></video><div class="scan-line"></div></div>
+          <div class="tablet video-frame"><video src="assets/videos/heal-care-clinic.mp4" muted autoplay loop playsinline poster="assets/projects/heal-care-clinic.svg"></video><div class="scan-line"></div></div>
+          <div class="mobile video-frame"><video src="assets/videos/luxo-nails.mp4" muted autoplay loop playsinline poster="assets/projects/luxo-nails.svg"></video><div class="scan-line"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cases section-reveal" id="cases">
+      <div class="container">
+        <div class="section-head split-head">
+          <div><p class="eyebrow">Selected Work</p><h2>Client Projects</h2></div>
+          <p>Professional project content with industry, services, outcomes, visuals, and live website buttons.</p>
+        </div>
+        <div class="filter-tabs" id="filterTabs">
+          <button class="active" data-filter="All">All</button>
+          <button data-filter="Education">Education</button>
+          <button data-filter="Healthcare">Healthcare</button>
+          <button data-filter="Beauty">Beauty</button>
+          <button data-filter="Business">Business</button>
+          <button data-filter="Real Estate">Real Estate</button>
+        </div>
+        <div class="case-grid" id="caseGrid"></div>
+      </div>
+    </section>
+
+    <section class="services section-reveal" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Capabilities</p>
+          <h2>What We Build</h2>
+        </div>
+        <div class="service-grid">
+          <article><span>01</span><h3>Premium Website Design</h3><p>Modern websites with clean UI, strong structure, responsive layouts, and premium brand presentation.</p></article>
+          <article><span>02</span><h3>WordPress & Elementor</h3><p>Easy-to-manage WordPress websites with custom sections, landing pages, and smooth visual experience.</p></article>
+          <article><span>03</span><h3>React Frontend</h3><p>Interactive, fast, and modern frontend experiences for portfolios, dashboards, and web applications.</p></article>
+          <article><span>04</span><h3>Digital Marketing</h3><p>SEO, social creatives, paid campaign assets, content direction, and digital growth strategy.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section-reveal">
+      <div class="container">
+        <div class="section-head"><p class="eyebrow">Process</p><h2>Simple process. Premium output.</h2></div>
+        <div class="timeline">
+          <div><span>01</span><h3>Discover</h3><p>Brand, audience, goals, competitors, and website purpose.</p></div>
+          <div><span>02</span><h3>Design</h3><p>Premium layout, content flow, visuals, and responsive user experience.</p></div>
+          <div><span>03</span><h3>Build</h3><p>Fast, clean, mobile-friendly website development.</p></div>
+          <div><span>04</span><h3>Launch & Grow</h3><p>Testing, launch support, SEO basics, and marketing-ready improvements.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer section-reveal" id="contact">
+      <div class="container footer-inner">
+        <p class="eyebrow">Start a Project</p>
+        <h2>Have a brand that deserves a premium digital presence?</h2>
+        <p>Let’s build a website and marketing system that looks beautiful, feels smooth, and helps your business grow.</p>
+        <a class="talk-btn" href="mailto:nikitadigivik@gmail.com">Let’s Talk <span>→</span></a>
+        <div class="footer-bottom"><strong>Digivik Business Solutions</strong><span>Premium Website Design • Development • Digital Marketing</span></div>
+      </div>
+    </footer>
+  </main>
+
+  <script>window.DIGIVIK_PROJECTS = [{"slug": "fly-and-tech", "name": "Fly and Tech", "url": "https://flyandtech.com/", "category": "Aviation & Technology", "services": "Website Design \u2022 UI Structure \u2022 Lead Journey", "result": "A modern aviation-tech website designed with strong service sections, smooth browsing, and enquiry-focused user flow.", "tag": "Travel / Tech"}, {"slug": "workfly", "name": "WorkFly", "url": "http://workfly.in/", "category": "Business Platform", "services": "Web Platform UI \u2022 Responsive Build", "result": "A clean business platform website that explains services clearly and guides visitors toward quick action.", "tag": "Business"}, {"slug": "giggles-scribbles", "name": "Giggles N Scribbles", "url": "https://gigglesnscribbles.com/", "category": "Kids Education", "services": "School Website \u2022 Friendly UI", "result": "A warm, playful education website crafted for parents with easy navigation and trust-building content.", "tag": "Education"}, {"slug": "girjas-salon", "name": "Girjas Salon", "url": "https://girjassalon.com/", "category": "Beauty & Salon", "services": "Brand Website \u2022 Service Layout", "result": "A stylish salon website that presents services, ambience, and booking intent with a premium beauty feel.", "tag": "Beauty"}, {"slug": "concept-tutorials", "name": "Concept Tutorials", "url": "https://concepttutorials.co.in/", "category": "Coaching Institute", "services": "Education Website \u2022 Course Layout", "result": "A structured coaching website presenting courses, results, and contact points with strong clarity.", "tag": "Education"}, {"slug": "concrete-man", "name": "Concrete Man", "url": "https://concreteman.co.in/", "category": "Construction Business", "services": "Corporate Website \u2022 Service Pages", "result": "A professional construction website focused on credibility, project presentation, and service communication.", "tag": "Business"}, {"slug": "hotel-ashirwad", "name": "Hotel Ashirwad", "url": "https://hotelashirwad.co/", "category": "Hotel & Hospitality", "services": "Hotel Website \u2022 Room Showcase", "result": "A hospitality website designed to highlight stay experience, amenities, and quick visitor enquiry.", "tag": "Hospitality"}, {"slug": "corporate-skill-hub", "name": "Corporate Skill Hub", "url": "https://corporateskillhub.com/", "category": "Corporate Training", "services": "Business Website \u2022 Learning Flow", "result": "A polished training website built to communicate programs, outcomes, and corporate credibility.", "tag": "Business"}, {"slug": "heal-care-clinic", "name": "Heal & Care Clinic", "url": "https://www.healandcareclinic.com/", "category": "Healthcare Clinic", "services": "Clinic Website \u2022 Trust Layout", "result": "A clean healthcare website with service-led sections, doctor trust elements, and patient-friendly navigation.", "tag": "Healthcare"}, {"slug": "her-everyday-runway", "name": "Her Everyday Runway", "url": "https://hereverydayrunway.com/", "category": "Fashion E-commerce", "services": "Shopify / Store UI \u2022 Product Layout", "result": "A fashion-focused online store experience with elegant product presentation and shopping-friendly structure.", "tag": "Fashion"}, {"slug": "luxo-nails", "name": "Luxo Nails", "url": "http://luxonails.in/", "category": "Nail Studio", "services": "Beauty Website \u2022 Booking Flow", "result": "A premium nail studio website with service highlights, clean visuals, and conversion-focused presentation.", "tag": "Beauty"}, {"slug": "concept-iit", "name": "Concept Tutorials IIT Page", "url": "https://concepttutorials.co.in/iitpage/", "category": "IIT Coaching Landing Page", "services": "Landing Page \u2022 Lead Generation", "result": "A focused landing page designed to highlight IIT coaching benefits, trust, and admission enquiry flow.", "tag": "Education"}, {"slug": "shruti-kabra", "name": "Shruti Kabra Associates", "url": "https://shrutikabraassociates.com/", "category": "Architecture / Interiors", "services": "Portfolio Website \u2022 Premium Layout", "result": "A refined portfolio-style website showcasing services, projects, and brand personality with elegance.", "tag": "Business"}, {"slug": "meghgiri", "name": "Meghgiri", "url": "https://meghgiri.com/", "category": "Business Website", "services": "Website Design \u2022 Content Structure", "result": "A clean brand website created to present business information with a premium and easy-to-read layout.", "tag": "Business"}, {"slug": "branddad-india", "name": "BrandDad India", "url": "https://branddadindia.com/", "category": "Branding Agency", "services": "Creative Website \u2022 Agency Portfolio", "result": "A bold agency website experience crafted for brand storytelling, creative services, and digital impact.", "tag": "Business"}, {"slug": "saraswati-kripa", "name": "Saraswati Kripa", "url": "https://saraswatikripa.com/", "category": "Education / Institution", "services": "Institution Website \u2022 Information Flow", "result": "A simple and trust-focused website presenting institutional content in a clear, user-friendly structure.", "tag": "Education"}, {"slug": "quadra-horizons", "name": "Quadra Horizons", "url": "https://quadrahorizons.com/", "category": "Real Estate", "services": "Real Estate Website \u2022 Project Showcase", "result": "A premium real estate website built to showcase property offerings, location value, and enquiry flow.", "tag": "Real Estate"}];</script>
+  <script src="script.js"></script>
+</body>
+</html>
